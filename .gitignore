@@ -1,1 +1,15 @@
+# Инициализация репозитория
+git init
+
+# Создание файла .gitignore (чтобы не сохранять мусор)
+echo "movies.json" > .gitignore
+echo "__pycache__/" >> .gitignore
+echo "*.pyc" >> .gitignore
+echo ".DS_Store" >> .gitignore
+
+# Добавление файлов
+git add .
+
+# Первый коммит
+git commit -m "Initial commit: Movie Library GUI with JSON and filters"
 
